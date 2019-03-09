@@ -1,0 +1,241 @@
+@font-face {
+    font-family:  dinBold;
+    src: url('d-dincondensed-bold-webfont.woff2') format('woff2'),
+         url('d-dincondensed-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: dinReg;
+    src: url('d-dincondensed-webfont.woff2') format('woff2'),
+         url('d-dincondensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    margin: 0;
+    background-color: #D7DEDC;
+    font-family: dinReg;
+    font-size: 16px;
+    color: #011627;
+}
+
+.header {
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    background-color: #011627;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header img {
+    width: 600px;
+}
+
+.header h2 {
+    font-family: dinReg;
+    color: #F7F7FF;
+    font-size: 30px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.underline {
+    border-bottom: 3px solid #E7E247;
+}
+
+nav {
+    width: 70%;
+    height: 90px;
+    background: #F7F7FF;
+    margin: -40px auto;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    z-index: 1000;
+}
+
+
+img.logo {
+    width: 62px;
+    
+}
+
+
+nav ul li{
+ display: inline;
+ text-transform: uppercase;
+ font-size: 22px;
+ padding: 5px;
+ border-radius: 5px
+}
+
+li a {
+    text-decoration: none;
+    color: #011627;
+
+}
+nav ul li:hover {
+    background-color: #D7DEDC;
+    cursor: pointer;
+}
+
+nav.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 15px;
+  }
+
+
+
+div.details {
+    height: 300px;
+    background: #011627;
+}
+
+div.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+}
+
+.date p:nth-child(1) {
+    text-transform: uppercase;
+    color: #E7E247;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.date p:nth-child(2) {
+    color: #F7F7FF;
+    font-size: 24px;
+}
+
+.btn {
+    font-size: 20px;
+    font-family: dinBold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    line-height: 1.5;
+    border-radius: .3rem;
+    background-color: #F7F7FF;
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
+    padding-bottom: 1rem!important;
+    padding-top: 1rem!important;
+    color: #EF767A;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ section {
+     min-height: 500px;
+ }
+
+section.about {
+    padding: 100px 0;
+}
+
+div.about-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.about-container div {
+    width: 50%;
+}
+
+.about-container div:nth-child(2) {
+   margin-left: 120px;
+   width: 30%;
+}
+
+.about-container div p {
+   margin: 0;
+   font-family: dinReg;
+   line-height: 1.5;
+   font-size: 32px;
+}
+
+.about-container div h2 {
+    margin-top: 0;
+    font-size: 48px;
+    font-family: dinBold;
+    color: #011627;
+ }
+
+.bold {
+    font-family: dinBold;
+}
+
+img.text-img {
+    height: 80px;
+    margin: 3rem 0;
+    /* transform: rotate(-10deg); */
+
+}
+
+section.sponsors {
+    background: #011627;
+    padding: 30px;
+}
+
+div.sponsor-container {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsor-title {
+   width: 400px;
+}
+
+.logo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.sponsor-logo {
+    width: 200px;
+    height: 200px;
+    margin: 8px;
+    padding: 2px;
+}
+
+section.team {
+    padding: 30px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+.team img {
+    width: 200px;
+}
+
